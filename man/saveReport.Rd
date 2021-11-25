@@ -49,8 +49,8 @@ Uses knitr and markdown to create reports. Reports have the extensions .Rmd or .
 By default the \code{table.css} style sheet is used for format the html output.
 }
 \seealso{
-Other dataQual.functions: 
+Other dataqualr.functions: 
 \code{\link{rReview}()},
 \code{\link{summary.dataReviewRobject}()}
 }
-\concept{dataQual.functions}
+\concept{dataqualr.functions}

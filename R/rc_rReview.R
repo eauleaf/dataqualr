@@ -1,7 +1,7 @@
 #' Create distribution and frequency data for each column of a data frame
 #' @description Create distribution and frequency data for each column of a data frame and produce a dataReviewR object containing
 #' details of the frequency of variables and summary stats for each column of the data. See \code{vignette("dataReviewR")} for more details.
-#' @family dataQual.functions
+#' @family dataqualr.functions
 #' @param df data frame. The data object. dataReviewR will attempt to coerce all data objects to data frames.
 #' @param roundDigits Integer. If NA, numerics are not rounded before comparison. If specified, numerics are
 #'                    rounded to the specified number of decimal places using \link[base]{round}.

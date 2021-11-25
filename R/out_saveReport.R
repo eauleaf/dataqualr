@@ -4,7 +4,7 @@
 #' Uses knitr and markdown to create reports. Reports have the extensions .Rmd or .html.
 #' By default the \code{table.css} style sheet is used for format the html output.
 #'
-#' @family dataQual.functions
+#' @family dataqualr.functions
 #' @param reviewObject a dataReviewR object.
 #' @param reportLocation String. Location to save reports specified by the user. The R markdown and (optionally) HTML reports will
 #' be saved in this area
@@ -74,7 +74,7 @@ saveReport <- function(reviewObject, reportName, reportLocation = '.', HTMLRepor
   # and if custom stylesheet exists
   if(is.na(stylesheet)) {
     message('Using default stylesheet')
-    stylesheetToUse <- system.file("css", "table.css", package = "dataQual")
+    stylesheetToUse <- system.file("css", "table.css", package = "dataqualr")
   } else {
     if(file.exists(stylesheet)) {
       message(paste0('Using custom stylesheet at ',stylesheet ))

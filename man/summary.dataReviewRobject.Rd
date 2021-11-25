@@ -44,8 +44,8 @@ The function summary.dataReviewR computes and returns a list of summary details 
 Summarizing RReview Output
 }
 \seealso{
-Other dataQual.functions: 
+Other dataqualr.functions: 
 \code{\link{rReview}()},
 \code{\link{saveReport}()}
 }
-\concept{dataQual.functions}
+\concept{dataqualr.functions}

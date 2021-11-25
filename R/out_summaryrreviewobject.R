@@ -1,6 +1,6 @@
 #' Summarizing RReview Output
 #'
-#' @family dataQual.functions
+#' @family dataqualr.functions
 #' @param object an dataReviewR object, usually a result of a call to \code{\link{rReview}}.
 #' @param mismatchCount Integer. How many mismatches to include in tables
 #' @param ... Passes any additional arguments (not used in current version)
@@ -71,7 +71,7 @@ summary.dataReviewRobject <- function(object, mismatchCount = 5, ...){
 
 
   # Allocate version number for the dataReviewR package to ans$version
-  ans$version <- packageVersion("dataQual")
+  ans$version <- packageVersion("dataqualr")
 
   # Allocate time run to ans$runtime
   ans$runtime <- object$meta$runTimestamp

@@ -26,8 +26,8 @@ Create distribution and frequency data for each column of a data frame and produ
 details of the frequency of variables and summary stats for each column of the data. See \code{vignette("dataReviewR")} for more details.
 }
 \seealso{
-Other dataQual.functions: 
+Other dataqualr.functions: 
 \code{\link{saveReport}()},
 \code{\link{summary.dataReviewRobject}()}
 }
-\concept{dataQual.functions}
+\concept{dataqualr.functions}
